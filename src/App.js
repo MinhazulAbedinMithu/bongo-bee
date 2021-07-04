@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import styled from "styled-components";
 import Posts from "./components/Posts";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import UserProfile from "./components/UserProfile";
 import PostDetails from "./components/PostDetails";
 import Header from "./components/Header";

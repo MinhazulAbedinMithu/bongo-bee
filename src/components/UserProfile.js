@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Col, Container, Row, Table } from "react-bootstrap";
+import { Col, Row, Table } from "react-bootstrap";
 import { useParams } from "react-router";
 import Post, { UserImg, UserInfo, UserName } from "./Post";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,7 +11,6 @@ const UserAbout = styled.div`
 	padding: 20px 10px;
 	border-radius: 10px;
 `;
-const AboutCont = styled.p``;
 export const CustomHead = styled.h2`
 	text-align: center;
 	padding: 10px 0;
