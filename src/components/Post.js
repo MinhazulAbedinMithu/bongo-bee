@@ -24,20 +24,22 @@ export const UserInfo = styled.div`
 export const UserImg = styled.span`
 	border-radius: 50%;
 	font-size: ${(props) => (props.bigImg ? "180px" : "60px")};
-	border: 1px solid gray;
+	border: 1px solid blue;
 	padding: 10px 25px;
 	margin: 10px;
 `;
 export const UserName = styled.h2`
 	color: black;
 	padding: 20px 10px;
-	font-size: ${(props) => (props.profileName ? "50px" : "24px")};
+	font-weight: bold;
+	font-size: ${(props) => (props.profileName ? "60px" : "35px")};
 	font-family: cursive;
 	padding: ${(props) => (props.profileName ? "0" : "40px 10px")};
 `;
 export const ViewProfile = styled.button`
-	color: black;
-	border: 2px solid black;
+	color: white;
+	background-color: blue;
+	border: 2px solid white;
 	border-radius: 10px;
 	font-weight: bold;
 	font-size: 16px;
